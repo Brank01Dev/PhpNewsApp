@@ -1,0 +1,203 @@
+.body{
+  background-color: rgba(231, 239, 197);
+}
+
+.startHead{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: rgba(242, 221, 164);
+    text-align: center;
+    padding: 0.1em;
+    border-radius:3em;
+    margin: 3em;
+}
+h2{
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+.catSelect{
+  text-align: center;
+  font-weight: 900;
+  font-family: sans-serif;
+  background-color: rgba(191, 215, 181);
+  padding: 3em;
+  font-size: 1rem;
+  margin: 3em;
+  border-radius: 3em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.newsArtic {
+  background-color: rgba(163, 196, 188, 0.9);
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 1.5em;
+  max-width: 80%;
+  font-family: sans-serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.showNews h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.showNews p {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.comments {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.ShowComments {
+  border-top: 1px solid #ccc;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+.ShowComments strong {
+  color: #333;
+}
+
+.bottomLinks {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10em; 
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 1.5em;
+}
+
+.buttonLink {
+  background-color: #3a65473e;
+  color: white;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  border-radius: 0.8em;
+  font-weight: bold;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.buttonLink:hover {
+  background-color: #3a6547;
+}
+.commentForm {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.commentInput {
+  padding: 3em;
+  border: 1px solid #ccc;
+  border-radius: 1.5em;
+  font-family: sans-serif;
+}
+
+.commentButton {
+  background-color: #4a7c59;
+  color: white;
+  padding: 0.6em 1.5em;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.commentButton:hover {
+  background-color: #3a6547;
+}
+
+
+.formCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formCard {
+  background-color: rgba(163, 196, 188, 0.9);
+  padding: 2em;
+  border-radius: 1.5em;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.formCard input[type="text"],
+.formCard input[type="password"] {
+  padding: 1.5em;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+  width: 90%;
+}
+
+.formButtons {
+  display: flex;
+  font-size: 0.7em;
+  justify-content: space-around;
+  margin-top: 1em;
+  gap: 0.5em;
+}
+
+.buttonLink {
+  background-color: #4a7c59;
+  color: white;
+  padding:1em;
+  border-radius: 0.7em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttonLink:hover {
+  background-color: #3a6547;
+}
+.form1 {
+  background-color: rgba(242, 221, 164);
+  padding: 2em;
+  margin: 3em auto;
+  border-radius: 2em;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.newsArtic {
+  background-color: rgba(163, 196, 188);
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 1em;
+  max-width: 700px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.showNews {
+  text-align: left;
+}
+
+.ShowComments {
+  background-color: rgba(255,255,255,0.6);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.5em 0;
+}
+a.buttonLink {
+  background-color: #3a6547;
+  color: rgb(255, 255, 255);
+  padding: 0.4em 1em;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
