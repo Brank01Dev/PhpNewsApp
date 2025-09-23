@@ -39,10 +39,3 @@ With this project, I practiced:
 	•	Session management for authentication
 	•	Basic frontend styling with CSS
 	•	Connecting backend and frontend logic
-
-⸻
-
-🙏 Final Word
-
-This project is not production-ready.
-It’s part of my personal learning journey, and I know there’s room for improvement in both security and code quality.
